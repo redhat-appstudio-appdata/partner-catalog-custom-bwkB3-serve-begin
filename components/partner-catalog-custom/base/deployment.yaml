@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-custom
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/jbaxter1-tenant/partner-catalog-custom/partner-catalog-custom@sha256:3bc4e5cf4c470c434a2fd79c4c18c80b5f65fbad1f5a758074c5d51e0d7b81e0
         name: my-java-springboot
         ports:
         - containerPort: 8081
